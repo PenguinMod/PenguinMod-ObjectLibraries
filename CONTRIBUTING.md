@@ -13,6 +13,6 @@ add Jump4 sound
 
 This sound should be listed under the name Jump4 in the sound library
 ### Either
-I found this sound here: <link>
+I found this sound here: *insert link here*
 ### Or
 I recorded this sound myself
