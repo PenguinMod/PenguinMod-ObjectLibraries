@@ -2,11 +2,78 @@
 <html lang="en-US">
 	<head>
 		<title>PenguinMod - Library</title>
+		<style>
+			* {
+				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			}
+			body {
+				min-width: 400px;
+			}
+
+			.nav-bar {
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 3rem;
+				background: #00c3ff;
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+			}
+
+			.nav-bar a:not(.home-redirect) {
+				margin: 0 8px;
+				height: 100%;
+			}
+			.nav-bar button {
+				height: 100%;
+				padding: 8px 12px;
+				background: transparent;
+				color: white;
+				font-weight: bold;
+				font-size: 0.75rem;
+				border: 0;
+				margin: 0;
+				cursor: pointer;
+			}
+			.nav-bar button:hover {
+				background: rgba(0, 0, 0, 0.125);
+			}
+			
+			.home-redirect {
+				height: 80%;
+				margin-left: 4px;
+			}
+			.home-redirect > img {
+				height: 100%;
+			}
+
+			.nav-margin {
+				width: 100%;
+				height: 3rem;
+			}
+		</style>
 	</head>
 	<body>
-		<h1>PenguinMod-ObjectLibraries</h1>
+		<div class="nav-bar">
+			<a class="home-redirect" href="https://penguinmod.site">
+				<img src="navicon.png" alt="Icon">
+			</a>
+			<a href="https://github.com/PenguinMod/PenguinMod-ObjectLibraries">
+				<button>
+					GitHub
+				</button>
+			</a>
+		</div>
+		<div class="nav-margin"></div>
+		<h1>PenguinMod Object Libraries</h1>
 		<p>This site contains all PenguinMod sounds, costumes or other items that are added to the library.</p>
 		<p>To add an item to one of these libraries, feel free to contribute to the <a href="https://github.com/PenguinMod/PenguinMod-ObjectLibraries">GitHub repository.</a></p>
-		<p><b>Note: All new sounds & costumes MUST be Public Domain or MIT licensed sounds. There are no exceptions.</b></p>
+		<br>
+		<p><b>Note: All new sounds & costumes MUST be Public Domain (creative commons 0 or other public licenses) or MIT licensed. There are no exceptions.</b></p>
+		<p>If you make the content yourself and upload it here, note that your content can be used, sold and modified without your permission required or credits required.</p>
+		<br>
+		<p>Please check your sources to confirm the content is allowed on PenguinMod. For example, PenguinMod gets sounds from <a href="https://freesound.org">freesound.org</a> under the Creative Commons 0 License.</p>
 	</body>
 </html>
