@@ -53,6 +53,21 @@
 				width: 100%;
 				height: 3rem;
 			}
+
+			.view-files {
+				padding: 8px;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				cursor: pointer;
+			}
+			.view-files img {
+				margin-bottom: 6px;
+				width: 20px;
+			}
+			.view-files p {
+				margin-block: 0;
+			}
 		</style>
 	</head>
 	<body>
@@ -75,5 +90,12 @@
 		<p>If you make the content yourself and upload it here, note that your content can be used, sold and modified without your permission required or credits required.</p>
 		<br>
 		<p>Please check your sources to confirm the content is allowed on PenguinMod. For example, PenguinMod gets sounds from <a href="https://freesound.org">freesound.org</a> under the Creative Commons 0 License.</p>
+		<br>
+		<a href="https://library.penguinmod.com/files">
+			<button class="view-files">
+				<img src="folder.svg" alt="Icon">
+				<p>View Library Files</p>
+			</button>
+		</a>
 	</body>
 </html>
