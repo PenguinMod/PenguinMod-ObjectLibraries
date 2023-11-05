@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>PenguinMod - Library</title>
+		<style>
+            @keyframes spinner {
+                0% { transform: rotate(0deg); }
+                50% { transform: rotate(180deg); }
+                100% { transform: rotate(360deg); }
+            }
+
+			* {
+				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			}
+            code {
+                font-family: monospace;
+                background: rgba(0, 0, 0, 0.1);
+                border-radius: 4px;
+            }
+			body {
+				min-width: 400px;
+			}
+
+			.nav-bar {
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 3rem;
+				background: #00c3ff;
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+			}
+
+			.nav-bar a:not(.home-redirect) {
+				margin: 0 8px;
+				height: 100%;
+			}
+			.nav-bar button {
+				height: 100%;
+				padding: 8px 12px;
+				background: transparent;
+				color: white;
+				font-weight: bold;
+				font-size: 0.75rem;
+				border: 0;
+				margin: 0;
+				cursor: pointer;
+			}
+			.nav-bar button:hover {
+				background: rgba(0, 0, 0, 0.125);
+			}
+			
+			.home-redirect {
+				height: 80%;
+				margin-left: 4px;
+			}
+			.home-redirect > img {
+				height: 100%;
+			}
+
+			.nav-margin {
+				width: 100%;
+				height: 3rem;
+			}
+
+            .loading {
+                animation: spinner 1s linear 0s infinite;
+                width: 4rem;
+            }
+            .error {
+                color: red;
+            }
+
+            .emoji-card {
+                margin: 4px;
+                padding: 4px;
+                border-radius: 4px;
+                border: 1px solid rgba(0, 0, 0, 0.25);
+                background: white;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                cursor: pointer;
+                width: 150px;
+                height: 150px;
+            }
+            .emoji-card > img {
+                width: 96px;
+                height: 96px;
+            }
+            .emoji-card > p {
+                font-weight: bold;
+                margin-block: 4px;
+            }
+            .emoji-card:active {
+                filter: brightness(0.8);
+            }
+            .emoji-container {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+		</style>
+	</head>
+	<body>
+		<div class="nav-bar">
+			<a class="home-redirect" href="https://penguinmod.com">
+				<img src="../navicon.png" alt="Icon">
+			</a>
+			<a href="../">
+				<button>
+					Home
+				</button>
+			</a>
+			<a href="../files">
+				<button>
+					Files
+				</button>
+			</a>
+			<a href="./">
+				<button>
+					Emojis
+				</button>
+			</a>
+			<a href="https://github.com/PenguinMod/PenguinMod-ObjectLibraries">
+				<button>
+					GitHub
+				</button>
+			</a>
+		</div>
+		<div class="nav-margin"></div>
+		<h1>PenguinMod Emojis</h1>
+        <p>These are accessible by surrounding a <strong>lower-case emoji name</strong> with colon : symbols.</p>
+        <p>Examples:</p>
+        <p style="margin-left:8px;"><code>:excited: :meh: :idk:</code></p>
+        <br>
+        <p>You can use these in your project's description.</p>
+        <img id="loading" class="loading" src="https://penguinmod.com/loading.png" alt="Loading">
+        <p id="error" class="error" style="display: none;">An error occurred. You may need to try again later.</p>
+        <div class="emoji-container" id="container"></div>
+        
+        <script>
+            const loadingSpinner = document.getElementById('loading');
+            const errorText = document.getElementById('error');
+            const emojiContainer = document.getElementById('container');
+            const emojiHtmlUrl = 'https://corsproxy.io/?https%3A%2F%2Flibrary.penguinmod.com%2Ffiles%2Femojis';
+
+            const emojiElementHTML = `<button class="emoji-card" onclick="copyEmojiName(\`{NAME}\`)">
+    <img src="../files/emojis/{NAME}.png" alt=":{NAME}:" title=":{NAME}:">
+    <p>:{NAME}:</p>
+</button>`;
+
+            const copyEmojiName = (name) => {
+                navigator.clipboard.writeText(`:${name}:`);
+            };
+
+            (async () => {
+                const response = await fetch(emojiHtmlUrl);
+                const htmle = await response.text();
+                const emojis = htmle
+                    .substring(htmle.indexOf('</header><ul id=files>') + 22, htmle.indexOf('</ul></main>'))
+                    .split('\n')
+                    .map(line => line.trim())
+                    .filter(line => line.length > 0) // remove blank lines
+                    .filter(line => line.endsWith('.png</a>')) // remove .txt file
+                    .map(emoji => {
+                        const cut = emoji.substring(22);
+                        const final = cut.substring(cut.indexOf('>') + 1, cut.indexOf('.png</a>'))
+                        return final;
+                    });
+                
+                loadingSpinner.remove();
+                for (const emoji of emojis) {
+                    emojiContainer.innerHTML += emojiElementHTML.replace(/\{NAME\}/gm, emoji);
+                }
+            })().catch(err => {
+                loadingSpinner.remove();
+                errorText.style = "";
+                console.error(err);
+            });
+        </script>
+	</body>
+</html>
