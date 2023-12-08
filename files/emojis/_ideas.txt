@@ -53,9 +53,9 @@ earth
 explode
 rainbow
 snowflake
-droplet
-sweat
-bubbles
+
+
+
 ocean
 apple
 pear
@@ -74,7 +74,7 @@ curry
 taco
 sushi
 bento
-oden
+
 icecream
 cake
 chocolate
@@ -110,7 +110,7 @@ controller
 puzzle
 trafficlight
 moai
-phone
+
 laptop
 computer
 watch
@@ -167,13 +167,13 @@ lock
 unlocked
 magnify
 heart
-o
-stop
+
+
 crosso
 hundred
 question
 exclamation
-warning
+
 recycle
 sound
 nosound
