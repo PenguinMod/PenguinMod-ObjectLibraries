@@ -49,9 +49,9 @@ dolphin
 shark
 horse
 clover
-earth
-explode
-rainbow
+
+
+
 snowflake
 
 
@@ -160,7 +160,7 @@ book
 pin
 scissors
 pen
-pencil
+
 paper
 pencilonpaper
 lock
@@ -169,10 +169,10 @@ magnify
 heart
 
 
-crosso
-hundred
-question
-exclamation
+
+
+
+
 
 recycle
 sound
