@@ -1,3 +1,10 @@
+
+
+
+
+
+
+toothbrush
 toilet
 car
 babyface
@@ -12,6 +19,7 @@ womanface
 cathappy
 catsad
 catscream
+catsilly
 
 
 
@@ -180,10 +188,13 @@ nosound
 lowsound
 bell
 nobell
-speech
 megaphone
 thinking
 whiteflag
 blackflag
 checkflag
 redflag
+animatedwave
+animatedsmile
+animatedfrown
+animatedsilly
