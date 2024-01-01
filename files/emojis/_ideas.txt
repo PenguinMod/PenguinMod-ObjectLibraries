@@ -149,8 +149,8 @@ wrench
 hammer
 pickaxe
 gear
-axe
-knife
+
+
 sword
 shield
 crystalball
@@ -190,10 +190,10 @@ bell
 nobell
 megaphone
 thinking
-whiteflag
-blackflag
-checkflag
-redflag
+
+
+
+
 animatedwave
 animatedsmile
 animatedfrown
