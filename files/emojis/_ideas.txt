@@ -7,19 +7,20 @@
 
 toilet
 car
-babyface
-boyface
-girlface
-manface
-womanface
+
+boy
+girl
+man
+woman
 
 
 
 
-cathappy
-catsad
-catscream
-catsilly
+
+
+
+
+
 
 
 
@@ -37,8 +38,8 @@ catsilly
 
 mouse
 bunny
-bear
-polarbear
+
+
 koala
 lion
 pig
@@ -69,7 +70,8 @@ apple
 pear
 orange
 lemon
-banana
+lime
+
 watermelon
 tomato
 bread
@@ -149,8 +151,8 @@ wrench
 hammer
 pickaxe
 gear
-
-
+axe
+knife
 sword
 shield
 crystalball
@@ -169,12 +171,12 @@ pin
 scissors
 pen
 
-paper
-pencilonpaper
-lock
-unlocked
-magnify
-heart
+
+
+
+
+
+
 
 
 
@@ -189,7 +191,7 @@ lowsound
 bell
 nobell
 megaphone
-thinking
+
 
 
 
