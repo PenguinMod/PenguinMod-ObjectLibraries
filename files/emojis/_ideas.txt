@@ -117,7 +117,7 @@ trumpet
 dice
 bowling
 controller
-puzzle
+
 
 moai
 
@@ -140,11 +140,11 @@ lowbattery
 lightbulb
 flashlight
 candle
-bill
-stackofbills
-coin
-moneybag
-diamond
+
+
+
+
+
 ladder
 toolbox
 wrench
