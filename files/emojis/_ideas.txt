@@ -8,10 +8,10 @@
 toilet
 car
 
-boy
-girl
-man
-woman
+
+
+
+
 
 
 
@@ -78,7 +78,7 @@ bread
 burger
 fries
 pizza
-riceball
+
 ramen
 curry
 taco
@@ -118,7 +118,7 @@ dice
 bowling
 controller
 puzzle
-trafficlight
+
 moai
 
 laptop
