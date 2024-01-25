@@ -196,7 +196,7 @@ megaphone
 
 
 
-animatedwave
+
 animatedsmile
 animatedfrown
 animatedsilly
