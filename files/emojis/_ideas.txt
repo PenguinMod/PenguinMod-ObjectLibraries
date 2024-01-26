@@ -125,7 +125,7 @@ laptop
 computer
 watch
 printer
-mouse
+computermouse
 save
 disc
 camera
@@ -147,12 +147,19 @@ candle
 
 ladder
 toolbox
-screwdriver
-
-hammer
 
 
+
+
+
+saw
+
+
+mousetrap
 gear
+bolt
+screw
+brick
 axe
 knife
 sword
