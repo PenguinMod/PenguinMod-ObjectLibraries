@@ -206,6 +206,6 @@ megaphone
 
 
 
-animatedsmile
-animatedfrown
-animatedsilly
+
+
+
