@@ -1,0 +1,264 @@
+{
+    "categories": {
+        "definition": [
+            ["people", "happy"],
+            ["living", "dog"],
+            ["parts", "wave"],
+            ["nature", "tree"],
+            ["food", "bento"],
+            ["activity", "puzzle"],
+            ["tradition", "present"],
+            ["travel", "moai"],
+            ["currency", "banknote"],
+            ["objects", "block"],
+            ["symbols", "star"],
+            ["flags", "redflag"]
+        ],
+        "locale": {
+            "cs": {
+                "living": "bear",
+                "currency": "banknoteeuro"
+            },
+            "es": {
+                "currency": "banknoteeuro"
+            },
+            "pt-br": {
+                "currency": "banknoteeuro"
+            },
+            "fr": {
+                "currency": "banknoteeuro"
+            },
+            "de": {
+                "currency": "banknoteeuro"
+            },
+            "it": {
+                "currency": "banknoteeuro"
+            },
+            "sk": {
+                "currency": "banknoteeuro"
+            },
+            "he": {
+                "living": "bluechick"
+            },
+            "hr": {
+                "living": "bluechick",
+                "currency": "banknoteeuro"
+            },
+            "ja": {
+                "people": "casualjoy",
+                "living": "cat",
+                "food": "riceball",
+                "currency": "banknoteyen"
+            }
+        },
+        "flags": {
+            "new-years": {
+                "people": "congrats"
+            },
+            "valentines": {
+                "people": "blush",
+                "living": "cathearteyes",
+                "symbols": "heart",
+                "locale": ["en"]
+            },
+            "stpatricks": {
+                "nature": "lucky",
+                "locale": ["en"]
+            },
+            "earth": {
+                "nature": "earth",
+                "locale": ["en"]
+            },
+            "veterans": {
+                "people": "salute",
+                "locale": ["en"]
+            },
+            "april-fools": {
+                "people": "clown",
+                "living": "troll"
+            },
+            "pride-month": {
+                "symbols": "rainbow",
+                "flags": "pride",
+                "locale": ["en"]
+            },
+            "halloween": {
+                "people": "scared",
+                "living": "pumpkinmad",
+                "objects": "saw",
+                "tradition": "jackolantern",
+                "locale": ["en"]
+            },
+            "christmas": {
+                "people": "allsmile",
+                "living": "doghappy",
+                "nature": "christmas",
+                "tradition": "present",
+                "locale": ["en"]
+            }
+        }
+    },
+    "emojis": {
+        "people": [
+            "smile",
+            "happy",
+            "blush",
+            "easilyhappy",
+            "good",
+            "casualjoy",
+            "excited",
+            "grin",
+            "cluelesssmile",
+            "allsmile",
+            "angel",
+            "bleh",
+            "cool",
+            "chill",
+            "bummed",
+            "bigsad",
+            "crying",
+            "brushoff",
+            "disappointed",
+            "annoyed",
+            "angry",
+            "mad",
+            "furious",
+            "eating",
+            "chew",
+            "bad",
+            "badtaste",
+            "barf",
+            "expressivedead",
+            "dead",
+            "visibleconfusion",
+            "confused",
+            "confusedthinking",
+            "thinking",
+            "idk",
+            "notalk",
+            "meh",
+            "dumb",
+            "bamboozled",
+            "eyeing",
+            "gladlyshocked",
+            "astonishment",
+            "handovermouth",
+            "shocked",
+            "unbelievable",
+            "extremeexcitement",
+            "worried",
+            "grimacing",
+            "scared",
+            "terrified",
+            "dotted",
+            "pureconfusion",
+            "lostinconfusion",
+            "shakingface",
+            "nodhorizontal",
+            "nodvertical",
+            "catlike",
+            "catlikesilly",
+            "eyesofmoney",
+            "glisteningeyes",
+            "hearteyes",
+            "stars",
+            "holdingbacktears",
+            "congrats",
+            "party",
+            "baby",
+            "boy",
+            "girl",
+            "man",
+            "woman",
+            "joe",
+            "cleaneyes",
+            "clown",
+            "cold",
+            "correcting",
+            "cowboy",
+            "dizzy",
+            "drooling",
+            "faceinclouds",
+            "goofyface",
+            "hurt",
+            "investigate",
+            "laughing",
+            "lying",
+            "mask",
+            "melting",
+            "mindblown",
+            "money",
+            "nerd",
+            "nervous",
+            "notified",
+            "outofarguments",
+            "pensive",
+            "pushaside",
+            "relief",
+            "rollingeyes",
+            "sad",
+            "salute",
+            "shhh",
+            "sick",
+            "sigh",
+            "silly",
+            "singing",
+            "sleeping",
+            "smallcry",
+            "smallpassiveaggressive",
+            "smallsmile",
+            "snoring",
+            "sobbing",
+            "steam",
+            "surprised",
+            "suspicious",
+            "sweating",
+            "tasty",
+            "tear",
+            "tears",
+            "teeth",
+            "thermometer",
+            "tissue",
+            "uncertainty",
+            "upsidedownsmile",
+            "uwu",
+            "yawn",
+            "zipper",
+            "animatedsmile",
+            "animatedfrown"
+        ],
+        "living": [
+            "devil"
+        ],
+        "parts": [
+
+        ],
+        "nature": [
+
+        ],
+        "food": [
+
+        ],
+        "activity": [
+
+        ],
+        "tradition": [
+
+        ],
+        "travel": [
+
+        ],
+        "currency": [
+
+        ],
+        "objects": [
+
+        ],
+        "symbols": [
+
+        ],
+        "flags": [
+
+        ]
+    }
+}
