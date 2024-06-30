@@ -1,0 +1,21 @@
+{
+  "name": "penguinmod-objectlibraries",
+  "version": "1.0.0",
+  "description": "The repo containing all new Public Domain costumes, sounds and others in PenguinMod's libraries.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PenguinMod/PenguinMod-ObjectLibraries"
+  },
+  "keywords": [
+    "penguinmod"
+  ],
+  "author": "PenguinMod",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^10.4.2"
+  }
+}
