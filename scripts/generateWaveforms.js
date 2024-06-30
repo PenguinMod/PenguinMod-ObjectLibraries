@@ -20,7 +20,7 @@ function generateWaveform(audioFile, outputFile) {
     outputFile = path.resolve(outputFile);
 
     return new Promise((resolve, reject) => {
-        const cmd = `ffmpeg -y -i "${audioFile}" -filter_complex "showwavespic=s=200x200:colors=0xDE91DE" -update 1 "${outputFile}"`;
+        const cmd = `ffmpeg -y -i "${audioFile}" -filter_complex "showwavespic=s=100x100:colors=0xDE91DE" -update 1 "${outputFile}"`;
 
         exec(cmd, { cwd: path.join(__dirname, "../") }, (error, stdout, stderr) => {
             if (error) {
