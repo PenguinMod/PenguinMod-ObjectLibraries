@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 135.46666 135.46667"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="redo.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   sodipodi:docname="menu.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="0.99999995"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="path8"
+       style="stroke-width:12;stroke-dasharray:none"
+       transform="matrix(0.96414261,0,0,0.96414261,5.8747672,9.0745751)">
+      <path
+         style="color:#000000;fill:#374551;fill-opacity:0;stroke-width:12;stroke-dasharray:none"
+         d="M 115,67.5 A 47.5,47.5 0 0 1 67.5,115 47.5,47.5 0 0 1 20,67.5 47.5,47.5 0 0 1 67.5,20 47.5,47.5 0 0 1 115,67.5 Z"
+         id="path9" />
+      <path
+         style="color:#000000;fill:#374551;fill-opacity:1;stroke:#13212e;stroke-width:6;stroke-dasharray:none;stroke-opacity:1"
+         d="m 11.5,67.5 c 0,30.827236 25.172764,56 56,56 30.827236,0 56,-25.172764 56,-56 0,-30.827236 -25.172764,-56 -56,-56 v 17 c 21.639763,0 39,17.360237 39,39 0,21.639763 -17.360237,39 -39,39 -21.639763,0 -39,-17.360237 -39,-39 z"
+         id="path10"
+         sodipodi:nodetypes="cssccsscc" />
+    </g>
+    <path
+       id="rect10"
+       style="fill:#374551;stroke:#13212e;stroke-width:5.78487"
+       d="M 77.107564,6.933525 V 50.319941 L 38.541859,31.037092 Z"
+       sodipodi:nodetypes="cccc" />
+  </g>
+</svg>
