@@ -12,7 +12,7 @@
             ["currency", "banknote"],
             ["objects", "block"],
             ["symbols", "star"],
-            ["flags", "redflag"]
+            ["flags", "flagred"]
         ],
         "locale": {
             "cs": {
@@ -38,10 +38,10 @@
                 "currency": "banknoteeuro"
             },
             "he": {
-                "living": "bluechick"
+                "living": "chickblue"
             },
             "hr": {
-                "living": "bluechick",
+                "living": "chickblue",
                 "currency": "banknoteeuro"
             },
             "ja": {
@@ -86,13 +86,13 @@
                 "people": "scared",
                 "living": "pumpkinmad",
                 "objects": "saw",
-                "tradition": "jackolantern",
+                "tradition": "pumpkinjackolantern",
                 "locale": ["en"]
             },
             "christmas": {
                 "people": "allsmile",
                 "living": "doghappy",
-                "nature": "christmas",
+                "nature": "treechristmas",
                 "tradition": "present",
                 "locale": ["en"]
             }
