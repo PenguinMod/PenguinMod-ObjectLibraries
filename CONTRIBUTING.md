@@ -23,6 +23,7 @@ Guidelines & notes for costumes are as follows:
 ## Sounds
 Guidelines & notes for sounds are as follows:
 - Sounds ripped directly from other games/media are not allowed.
+- Do not post sounds from/resembling 18+ content, however bloody/gorey sounds are allowed.
 - AI-Generated content will be ignored and closed. You aren't a chef if you only know how to microwave store-bought meals.
 - For music, a lot of old Public Domain music may be problematic since existing performances & recordings of the music *can* be copyrighted.
 - Music with lyrics will be accepted, but some people may prefer instrumental songs for games.
