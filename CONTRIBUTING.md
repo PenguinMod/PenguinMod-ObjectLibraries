@@ -16,7 +16,7 @@ Important notes:
 ## Costumes
 Guidelines & notes for costumes are as follows:
 - SFW (Safe for Work) content ONLY. Suggestive/sexual content is not tolerated.
-- AI-Generated content will be ignored and closed. You aren't a chef if you only know how to microwave store-bought meals.
+- AI-Generated content will be ignored and closed. You aren't a chef if you can only order food.
 - Usually you shouldn't make fully original & detailed characters, it's instead recommended to create stuff like generic objects or symbols like the current library.
   - This will allow for people to use your work in all types of projects, examples being buttons or objects like balloons and tools.
 
@@ -24,7 +24,7 @@ Guidelines & notes for costumes are as follows:
 Guidelines & notes for sounds are as follows:
 - Sounds ripped directly from other games/media are not allowed.
 - Do not post sounds from/resembling 18+ content, however bloody/gorey sounds are allowed.
-- AI-Generated content will be ignored and closed. You aren't a chef if you only know how to microwave store-bought meals.
+- AI-Generated content will be ignored and closed. You aren't a chef if you can only order food.
 - For music, a lot of old Public Domain music may be problematic since existing performances & recordings of the music *can* be copyrighted.
 - Music with lyrics will be accepted, but some people may prefer instrumental songs for games.
 
