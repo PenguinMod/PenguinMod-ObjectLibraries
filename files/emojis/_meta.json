@@ -225,40 +225,178 @@
             "yawn",
             "zipper",
             "animatedsmile",
-            "animatedfrown"
+            "animatedfrown",
+            "personrunning",
+            "personwalking"
         ],
         "living": [
-            "devil"
+            "devil",
+            "imp",
+            "cat",
+            "cathappy",
+            "cathearteyes",
+            "cathuh",
+            "catnotalk",
+            "catsad",
+            "catscream",
+            "catsilly",
+            "catstars",
+            "dog",
+            "doghappy",
+            "dogsad",
+            "dogscream",
+            "bear",
+            "polarbear",
+            "panda",
+            "chick",
+            "chickblue",
+            "fox",
+            "rat",
+            "jellyfish",
+            "snail",
+            "penguin"
         ],
         "parts": [
-
+            "robot"
         ],
         "nature": [
-
+            "diamond",
+            "ruby",
+            "pumpkinuncarved",
+            "moon",
+            "lucky",
+            "earth",
+            "droplet",
+            "flower",
+            "cactus",
+            "tree",
+            "sun"
         ],
         "food": [
-
+            "dango",
+            "oden",
+            "mushroom",
+            "pumpkinuncarved",
+            "bento",
+            "sushi",
+            "riceball"
         ],
         "activity": [
-
+            "personrunning",
+            "personwalking",
+            "bubbles",
+            "laptop",
+            "pray"
         ],
         "tradition": [
-
+            "present",
+            "treechristmas",
+            "pumpkinjackolantern",
+            "pray"
         ],
         "travel": [
-
+            "earth"
         ],
         "currency": [
-
+            "banknote",
+            "banknoteeuro",
+            "banknotepound",
+            "banknotestack",
+            "banknotestackeuro",
+            "banknotestackpound",
+            "banknotestackyen",
+            "banknoteyen",
+            "moneybag",
+            "coin"
         ],
         "objects": [
-
+            "shovel",
+            "hammer",
+            "hammerandwrench",
+            "laptop",
+            "magnify",
+            "bell",
+            "nobell",
+            "screwdriver",
+            "pencil",
+            "pencilonpaper",
+            "phone",
+            "pick",
+            "trafficlight",
+            "birthday",
+            "diamond",
+            "ruby",
+            "tada",
+            "saw",
+            "pumpkin",
+            "pumpkinjackolantern",
+            "pumpkinmad",
+            "pumpkinmeh",
+            "pumpkinsad",
+            "pumpkinuncarved",
+            "moneybag",
+            "puzzle",
+            "paper",
+            "coin",
+            "lock",
+            "unlocked",
+            "bubbles",
+            "wrench",
+            "toothbrush",
+            "toilet",
+            "sunglasses"
         ],
         "symbols": [
-
+            "arrowdown",
+            "arrowup",
+            "arrowleft",
+            "arrowright",
+            "nobell",
+            "chart",
+            "chartlowering",
+            "chartrising",
+            "check",
+            "xsimple",
+            "x",
+            "question",
+            "rainbow",
+            "ocross",
+            "birthday",
+            "developer",
+            "discordmod",
+            "admin",
+            "tada",
+            "donator",
+            "explode",
+            "block",
+            "o",
+            "thought",
+            "translator",
+            "troll",
+            "trollmeh",
+            "trollsad",
+            "speaking",
+            "star",
+            "stop",
+            "sound",
+            "soundloud",
+            "soundmuted",
+            "soundnone",
+            "speech",
+            "skull",
+            "skullcowboy",
+            "heart"
         ],
         "flags": [
-
+            "flagblack",
+            "flagblue",
+            "flagcheck",
+            "flaggreen",
+            "flagpurple",
+            "flagred",
+            "flagwhite",
+            "pride",
+            "transgender"
         ]
     }
 }
