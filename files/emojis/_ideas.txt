@@ -6,7 +6,7 @@
 
 
 
-car
+
 
 
 
@@ -44,14 +44,14 @@ koala
 lion
 pig
 frog
-penguin
-penguinhappy
-penguinsad
-penguinscared
+
+
+
+
 eagle
 owl
 
-bee
+
 
 fish
 dolphin
@@ -75,9 +75,9 @@ lime
 watermelon
 tomato
 bread
-burger
+
 fries
-pizza
+
 
 ramen
 curry
@@ -86,11 +86,11 @@ taco
 
 
 icecream
-cake
+
 chocolate
 icecube
-spoon
-fork
+
+
 salt
 pepper
 soccerball
@@ -116,12 +116,12 @@ drum
 trumpet
 dice
 bowling
-controller
 
 
 
 
-laptop
+
+
 computer
 watch
 printer
@@ -194,11 +194,11 @@ pen
 
 
 recycle
-sound
-nosound
-lowsound
-bell
-nobell
+
+
+
+
+
 megaphone
 
 
