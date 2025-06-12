@@ -145,10 +145,10 @@
             const loadingSpinner = document.getElementById('loading');
             const errorText = document.getElementById('error');
             const emojiContainer = document.getElementById('container');
-            const emojiHtmlUrl = 'https://library.penguinmod.com/files/emojis';
+            const emojiHtmlUrl = 'https://gextapi.derpygamer2142.com/emojis';
 
             const emojiElementHTML = `<button class="emoji-card" onclick="copyEmojiName(\`{NAME}\`)">
-    <img src="../files/emojis/{NAME}.png" alt=":{NAME}:" title=":{NAME}:">
+    <img src="../files/emojis/{NAME}.png" alt=":{NAME}:" title=":{NAME}:" loading="lazy">
     <p>:{NAME}:</p>
 </button>`;
 
@@ -158,18 +158,7 @@
 
             (async () => {
                 const response = await fetch(emojiHtmlUrl);
-                const htmle = await response.text();
-                const emojis = htmle
-                    .substring(htmle.indexOf('</header><ul id=files>') + 22, htmle.indexOf('</ul></main>'))
-                    .split('\n')
-                    .map(line => line.trim())
-                    .filter(line => line.length > 0) // remove blank lines
-                    .filter(line => line.endsWith('.png</a>')) // remove .txt file
-                    .map(emoji => {
-                        const cut = emoji.substring(22);
-                        const final = cut.substring(cut.indexOf('>') + 1, cut.indexOf('.png</a>'))
-                        return final;
-                    });
+                const emojis = await response.json();
                 
                 loadingSpinner.remove();
                 for (const emoji of emojis) {
