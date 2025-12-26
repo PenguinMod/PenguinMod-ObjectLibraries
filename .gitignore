@@ -2,3 +2,4 @@ desktop.ini
 node_modules
 
 cache/*
+.dev/*
