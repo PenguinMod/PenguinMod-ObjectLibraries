@@ -1,5 +1,5 @@
 /**
- * @fileoverview This script creates waveform previews of every audio file in the sounds folder.
+ * @fileoverview This script gets the length of every audio file in the sounds folder, as well as Scratch sounds.
  * 
  * IMPORTANT:
  * This script was only tested on Windows 10.
