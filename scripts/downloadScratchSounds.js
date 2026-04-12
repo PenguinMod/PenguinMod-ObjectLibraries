@@ -1,4 +1,3 @@
-
 /**
  * @fileoverview This script fetches and downloads each Scratch library sound to cache/scratch_sounds.
  * 
